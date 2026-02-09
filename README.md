@@ -18,7 +18,7 @@ For 100 items, the performance difference between O(N) and O(N log N) is negligi
 
 ### Changes from Initial Version
 
-All implementation changes are visible in the initial commit. The full diff shows the transition from the optimized but complex version to the current readable implementation.
+All implementation changes are visible in the 2nd commit. The full diff shows the full diff between boilerplate and solution.
 
 ### Technical Decisions
 
