@@ -25,6 +25,7 @@ All implementation changes are visible in the 2nd commit. The full diff shows th
 - **Target Framework**: .NET 8 was chosen over .NET 7 because that's the SDK installed locally. This should not cause compatibility issues.
 
 - **LeaderboardMinScores**: Changed to a record type since the data structure is meant to be immutable. Records provide value-based equality semantics and cleaner syntax for immutable data.
+Other models, which are practically immutable, could also be made record classes - but they were not because it would then be required to adjust tests file. I dont want to step into it for test task XD Let it be only functionality changes.
 
 ## Running Tests
 
